@@ -36,10 +36,10 @@ public class ui {
 	}
 	
 	public static void clicked(Player player, int slot, ItemStack clicked, Inventory inv) {
+		
+		//THIS LINE IS THE PROBLEMO.
 		if(clicked.getItemMeta().getDisplayName().equalsIgnoreCase(utils.chat("&cAdmin Pickaxe"))) {
-			player.setDisplayName(utils.chat("&8You selected an admin item!"));
-		}else {
-			
+			player.setDisplayName(utils.chat("You selected an admin item!"));
 		}
 	}
 }
