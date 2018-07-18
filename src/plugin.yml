@@ -1,0 +1,10 @@
+name: AdminTools
+version: 1.0.0
+author: OlleThunberg
+main: me.ollethunberg.admintools.Main
+description: Usefull tools you might want to use as an admin.
+commands:
+    tools:
+        description: This is for bringing up the ui
+        usage: /tools
+        aliases: [tl]

@@ -1,0 +1,9 @@
+#Default error message.
+console_error_message: '&8[&c*&8] &cOops! You are unable to execute this command'
+#FlyCommand Below
+FlyCommand:
+  flying_enabled: '&8[&a*&8] &7You have &aenabled &7fly, put on a helmet!'
+  flying_disabled: '&8[&c*&8] &7Oh no! You have &cdisabled &7fly!'
+
+#No permissions message.
+noperm_message: 'Sh*t, You do not have permissions..'
