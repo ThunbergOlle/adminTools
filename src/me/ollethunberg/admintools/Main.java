@@ -5,6 +5,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 import org.bukkit.command.CommandExecutor;
 import me.ollethunberg.admintools.listener.inventoryClickListener;
 import me.ollethunberg.admintools.commands.adminToolCommand;
+import me.ollethunberg.admintools.commands.toggleTimeCommand;
 import me.ollethunberg.admintools.ui.ui;
 
 public class Main extends JavaPlugin{

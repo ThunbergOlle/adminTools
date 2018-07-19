@@ -22,7 +22,7 @@ public class adminToolCommand implements CommandExecutor{
 	@Override
 	public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
 		if(!(sender instanceof Player)) {
-			sender.sendMessage(utils.chat("No No No, You can only call this function from the client."));
+			sender.sendMessage(utils.chat("&cNo No No, You can only call this function from the client."));
 			return true;
 		}
 		
