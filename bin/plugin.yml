@@ -8,3 +8,8 @@ commands:
         description: This is for bringing up the ui
         usage: /tools
         aliases: [tl]
+    adminbook:
+        description: Get a book for easy to open menu
+        usage: /adminbook
+        aliases: [ab]
+        
