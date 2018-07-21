@@ -12,4 +12,3 @@ commands:
         description: Get a book for easy to open menu
         usage: /adminbook
         aliases: [ab]
-        
